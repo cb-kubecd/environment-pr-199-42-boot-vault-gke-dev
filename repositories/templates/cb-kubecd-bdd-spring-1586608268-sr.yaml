@@ -1,0 +1,21 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: cb-kubecd
+    provider: github
+    repository: bdd-spring-1586608268
+  name: cb-kubecd-bdd-spring-1586608268
+spec:
+  description: Imported application for cb-kubecd/bdd-spring-1586608268
+  httpCloneURL: https://github.com/cb-kubecd/bdd-spring-1586608268.git
+  org: cb-kubecd
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: bdd-spring-1586608268
+  scheduler:
+    kind: ""
+    name: ""
+  url: https://github.com/cb-kubecd/bdd-spring-1586608268.git
